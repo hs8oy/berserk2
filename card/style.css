@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background: rgb(26, 23, 23);
+}
+
+.nav {
+    background: rgb(37, 36, 36);
+    height: 80px;
+}
+
+header .nav h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.m{
+    text-align: light;
+    color: white;
+    background: rgb(37, 3, 3);
+    padding: 10px 20px ;
+    border-radius: 12px;
+    
+}
+
+section {
+    display: inline-flex;
+    justify-content: center;
+    margin: 70px 30px;
+}
+
+.card {
+    background: rgb(24, 30, 51);
+    width: 350px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    border: solid 3px black;
+    margin: 20px 0;
+    transition: 0.5s ease;
+}
+
+img:hover {
+    border-radius: 12px;
+    box-shadow: 5px 4px 2px black;
+    transform: scale(1.1);
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+@media (max-width:400px) {
+
+    h1 {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+
+    .card {
+        width: 250px;
+        border-radius: 24px;
+        text-align: center;
+    }
+
+    img {
+        width: 200px;
+        border: solid 3px black;
+        margin: 20px 0;
+        transition: 0.5s ease;
+    }
+
+}
+
+h3{
+    color: #fff;
+    margin: 0 620px;
+
+}
